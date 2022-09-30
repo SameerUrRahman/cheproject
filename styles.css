@@ -1,0 +1,65 @@
+.Title{
+    color:green;
+    
+}
+body{
+    background-color: #191919;
+     text-align: center;
+}
+.Navi{
+    height: 100px
+
+}
+.SLAB
+{
+    color: green;
+    border: 5px solid #277627;
+    border-radius: 25px;
+
+}
+.Input_area{
+    margin: 2px ;
+    width: 5%;
+    /* margin: 10px 0 5px 0; */
+}
+.ipa{
+    border: 0.2rem solid #184818;
+    border-radius: 1rem;
+    width: 8rem;
+    height: 1rem;
+    margin: rem 0 0rem 0;
+}
+.sub{
+    background-color: brown;
+    width: 4rem;
+    margin: 1rem auto 1rem 2rem;
+}
+label{
+    color: #184818;
+    text-align: left;
+}
+.tabl{
+    color: white;
+    position: relative;
+    border-collapse: collapse;
+    left:10rem;
+    width: 500px;
+    height: 100px;
+    bottom: 16rem;
+}
+table{
+    border-collapse: collapse;
+}
+th,tr,td{
+    margin: 0rem;
+    text-align: left;
+    border: 0.1rem solid   #184818  ;
+    width: 50rem;
+    border-collapse: collapse;
+
+}
+.sub{
+    background-color: #184818
+    
+}
+
