@@ -1,6 +1,6 @@
 function pipe_fitting()
 {
-    if($("#f0").val()==$("#f1").val()==$("#f3").val()==$("#f4").val()==$("#f5").val()=='') return 1;
+   // if($("#f0").val()==$("#f1").val()==$("#f3").val()==$("#f4").val()==$("#f5").val()=='') return 1;
     var ver=$("#f0").val();
     var h1=$("#f1").val();
     var h2=$("#f2").val();
@@ -33,6 +33,11 @@ function pipe_fitting()
     }
     console.log(ver,h1,h2,r1,r2,t);
     console.log(Q,v1,v2,hl,kl);
+    Q=Q.toExponential(4);
+    v1=v1.toExponential(4);
+    v2=v2.toExponential(4);
+    hl=hl.toExponential(4);
+    kl=kl.toExponential(4);
     $("#f0").val('');
     $("#f1").val('');
     $("#f2").val('');
