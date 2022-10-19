@@ -1,5 +1,6 @@
 function pipe_fitting()
 {
+    if($("#f0").val()==$("#f1").val()==$("#f3").val()==$("#f4").val()==$("#f5").val()=='') return 1;
     var ver=$("#f0").val();
     var h1=$("#f1").val();
     var h2=$("#f2").val();
